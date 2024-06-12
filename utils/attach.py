@@ -8,7 +8,6 @@ def attach_bstack_video(session_id):
         f'{os.getenv("BS_API_SESSIONS")}/{session_id}.json',
         auth=(os.getenv("BS_LOGIN"), os.getenv("BS_PASS")),
     ).json()
-    print(bstack_session)
     video_url = bstack_session['automation_session']['video_url']
 
     allure.attach(
