@@ -1,3 +1,4 @@
+.idea
 .env.local_emulator
 .env.bstack
 allure-results
