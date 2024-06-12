@@ -1,7 +1,7 @@
-python-dotenv==1.0.0
 pydantic==2.5.2
 requests==2.32.1
 pytest==8.2.1
 allure-pytest==2.13.5
 selene>=2.0.0rc4
 Appium-Python-Client==4.0.0
+python-dotenv==1.0.0

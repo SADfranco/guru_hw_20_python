@@ -5,7 +5,6 @@ from selene import browser
 
 
 def attach_bstack_video(session_id):
-
     import requests
     bstack_session = requests.get(
         f'{os.getenv("BS_API_SESSIONS")}/{session_id}.json',
