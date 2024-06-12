@@ -1,7 +1,5 @@
 import allure
 import os
-import requests
-from selene import browser
 
 
 def attach_bstack_video(session_id):
